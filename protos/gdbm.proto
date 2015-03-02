@@ -2,9 +2,7 @@ syntax = "proto3";
 
 package gdbm;
 
-// The greeting service definition.
 service Gdbm {
-        // Sends a greeting
         rpc Insert (Request) returns (Entry) {}
         rpc Replace (Request) returns (Entry) {}
         rpc Fetch (Request) returns (Entry) {}
