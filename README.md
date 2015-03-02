@@ -2,7 +2,7 @@
 
 A network interface to gdbm using [grpc-go](https://github.com/grpc/grpc-go).
 
-(_This is just just an example code of gRPC_)
+(_This is just an example code of gRPC_)
 
 ## Usage
 
