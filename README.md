@@ -21,7 +21,7 @@ $ go run client/main.go -key foo -value bar
 
 ## For Developer
 
-If you want to re-generate go code from IDC file:
+If you want to re-generate go code from IDL file:
 
 ```
 $ protoc -I ./protos ./protos/gdbm.proto --go_out=plugins=grpc:gdbm
